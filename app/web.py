@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .container import Container
-from .routers import index_router
+from app.container import Container
+from app.routers import index_router
 
 app = FastAPI()
 

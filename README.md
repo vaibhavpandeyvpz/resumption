@@ -2,7 +2,7 @@
 
 Dockerized microservice to extract information from PDF resumes of infinite kind and transform it into uniform JSON structure to be used for further automation.
 
-## Usage
+## Development
 
 Run below commands in project folder:
 
@@ -10,7 +10,7 @@ Run below commands in project folder:
 # create app config
 cp config.dist.ini config.ini
 
-# update values in config.ini
+# update values in config.ini e.g., openai.* ones
 
 # start the services
 docker compose up -d
