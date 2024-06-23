@@ -18,7 +18,7 @@ dependency-injector = "^4.41.0"
 fastapi = "^0.111.0"
 loguru = "^0.7.2"
 openai = "^1.35.3"
-pypdf = "^4.2.0"
+pymupdf4llm = "^0.0.5"
 python-multipart = "^0.0.9"
 setuptools = "^70.0.0"
 
