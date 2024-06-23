@@ -44,7 +44,7 @@ Resume = {
         },
         "links": {
             "type": "array",
-            "description": "List of URLs or links (website, social media etc.) mentioned by the candidate.",
+            "description": "List of valid URLs (website, social media etc.) mentioned by the candidate.",
             "items": {"type": "string"},
         },
         "qualifications": {
