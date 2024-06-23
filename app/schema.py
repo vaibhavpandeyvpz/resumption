@@ -44,7 +44,8 @@ Resume = {
         },
         "links": {
             "type": "array",
-            "description": "List of valid URLs (website, social media etc.) mentioned by the candidate.",
+            "description": "List of URLs mentioned by the candidate."
+            "Items should be a valid URL and begin with http:// or https:// otherwise exclude them.",
             "items": {"type": "string"},
         },
         "qualifications": {
@@ -88,10 +89,6 @@ Resume = {
                         "type": "string",
                         "description": "Name of the role or designation at this company.",
                     },
-                    "location": {
-                        "type": "string",
-                        "description": "Location of the company.",
-                    },
                     "description": {
                         "type": "string",
                         "description": "Job description, responsibilities or project details while working here.",
@@ -111,7 +108,7 @@ Resume = {
                         "items": {"type": "string"},
                     },
                 },
-                "required": ["company", "designation", "from"],
+                "required": ["company", "designation", "started_at"],
             },
         },
     },

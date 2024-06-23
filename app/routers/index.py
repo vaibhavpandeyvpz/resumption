@@ -70,7 +70,7 @@ async def process(
                     "description": "Restructure data extracted from resume to the defined JSON schema.",
                     "parameters": Resume,
                 },
-            }
+            },
         ],
         tool_choice={"type": "function", "function": {"name": "format_resume"}},
     )
