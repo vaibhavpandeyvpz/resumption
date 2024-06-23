@@ -1,0 +1,1 @@
+0 * * * * cd /app && poetry run poe welcome > /var/log/cron.log 2>&1
