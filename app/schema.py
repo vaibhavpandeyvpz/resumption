@@ -44,8 +44,7 @@ Resume = {
         },
         "links": {
             "type": "array",
-            "description": "List of URLs mentioned by the candidate."
-            "Items should be a valid URL and begin with http:// or https:// otherwise exclude them.",
+            "description": "List of URLs mentioned by the candidate and all items should be a valid URL.",
             "items": {"type": "string"},
         },
         "qualifications": {
