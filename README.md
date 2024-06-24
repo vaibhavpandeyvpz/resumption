@@ -1,6 +1,6 @@
 # resumption
 
-Dockerized microservice to extract information from PDF resumes of infinite kind and transform it into uniform [JSON](https://www.json.org/json-en.html) structure to be used for further automation.
+Dockerized microservice to extract information from PDF resumes of different kind and transform it into uniform [JSON](https://www.json.org/json-en.html) structure to be used for further automation.
 
 ## Usage
 
